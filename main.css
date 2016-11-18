@@ -1,0 +1,94 @@
+body {
+    background-color: #3f94e7;
+    font-family: Roboto;
+}
+
+main {
+    height: 100%;
+}
+
+main * {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.signup_viewport {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 400px;
+    max-width: 400px;
+}
+
+.logo_analogsea {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    height: 35px;
+}
+
+.signup_form {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.signup_form * {
+    width: 320px;
+    min-width: 320px;
+}
+
+.signup_fieldset {
+    border: 0px;
+}
+
+.signup_header {
+    font-size: 28px;
+    color: #565656;
+    text-align: center;
+}
+
+.signup_label {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 15px 0px 15px 0px;
+}
+
+.signup_input {
+    font-size: 18px;
+    color: #a9a9a9;
+    border-radius: 3px;
+    border: 2px solid grey;
+    padding: 15px;
+}
+
+.signup_button {
+    background-color: #65c470;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 3px;
+    border: 2px solid #65c470;
+    padding: 15px;
+    margin: 15px 0px 15px 0px;
+}
+
+.signup_forgot {
+    text-align: center;
+    font-size: 15px;
+    color: #999999;
+    margin-bottom: 20px;
+}
+
+.signup_signin_parent {
+    text-align: center;
+}
+
+.signup_signin {
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+}
